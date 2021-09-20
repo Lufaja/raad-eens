@@ -51,6 +51,7 @@ while continueG == "y" and roundNum <= 20:
         tryNum += 1
     if roundNum == 20:
         break
+    print("You have " + str(winAmount) + " point(s).")
     continueG = " "
     while continueG != "y" and continueG != "n":
         continueG = input("Want to go another round? Y/N: ").lower()
